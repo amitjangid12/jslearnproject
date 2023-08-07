@@ -1,0 +1,29 @@
+#regForm {
+    width: 25%;
+    padding: 30px;
+}
+
+.userName {
+    width: 80%;
+}
+
+.emailId {
+    width: 80%;
+
+}
+
+#sub {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.stop {
+    box-shadow: 5px 5px #888888;
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.move {
+    transform: translateX(120%);
+}

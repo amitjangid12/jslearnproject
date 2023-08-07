@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="background-color: #13132b; color: rgb(206, 193, 193); padding: 5%">
+  <input type="search" id="search" placeholder="search value..." oninput="fetchdata()">
+  <div>
+    <input type="text" name="bookName" id="bkname">
+    <input type="text" name="author" id="auth">
+
+    <button onclick="heChange()">change</button>
+    <button onclick="fetApi(),fun2()">show data</button>
+
+    <input type="text" name="author" id="reduc"><button onclick="funnRedu()">reduce</button>
+
+    <input type="text"><button onclick="input()">optionsss</button>
+    <!-- <script>
+      checkboxes.forEach((checkbox) => {
+        checkbox.onchange = function (event) {
+          const checkbox = event.target;
+
+          if (checkbox.checked) {
+            // If this checkbox was just checked, uncheck all others
+            checkboxes.forEach((otherCheckbox) => {
+              if (otherCheckbox !== checkbox) {
+                otherCheckbox.checked = false;
+              }
+            });
+          }
+        };
+      });
+
+    </script> -->
+    <!-- <input type="text" id="table-input" placeholder="enter number to table..." oninput="table()">
+
+    <input type="text" id="pyramid-input" placeholder="enter number to pyramid..." oninput="pyramid1()">
+    <select>
+        <option></option>
+    </select>
+
+    <input type="text" id="alphabet-input" placeholder="enter anything..." oninput="alphabets()">
+
+    <input type="text" id="first-name" placeholder="first name">
+    <input type="text" id="middle-name" placeholder="middle name">
+    <input type="text" id="last-name" placeholder="last name">
+    <button onclick="fullName()">show name</button>
+    <div id="table"></div>
+    <div id="pyramid"></div>
+     <div id="name"></div>  -->
+
+    <div class="ls" id="dj"></div>
+    <div id="disD"></div>
+    <div style="margin: 20px 0">---- Name & Age ----</div>
+    <div class="ls" id="ajd"></div>
+
+
+
+    <!-- <input type="text" id="odd-even-input" placeholder="enter any number..." oninput="oddEven()">
+    <div id="even"> </div>
+    <div id="odd" style="margin-bottom: 10px;"></div>
+    <input type="text" id="number-show" placeholder="enter number with comma..." autocomplete="off"> <button
+      onclick="numberDisplay()"> get value</button>
+    <div id="times-show" style="margin-bottom: 10px;"></div>
+    <div id="user-details"></div>
+    <select id="dropdown">
+      <option hidden> Select Option</option>
+    </select> -->
+    <form id="regForm">
+      <div>
+        <input class="userName" id="userName" name="name" placeholder="userName">
+      </div>
+      <div>
+        <input id="emailId" class="emailId" name="email" placeholder="EmailId">
+      </div>
+      <!-- <input type="file" id="imageUpload" accept="image/*" >
+      <img id="previewImage" alt="Preview" style="display: none; max-width: 200px;">
+      <div id="errorContainer"></div> -->
+      <button class="stop" id="sub" type="submit" value="submit">Submit</button>
+    </form>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
